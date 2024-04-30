@@ -8,6 +8,14 @@ To set up the automatic backup download Sync.bat, USB-backup.ps1 and USB-backup.
 
 The batch file should go at the root your usb drive and the PS script can go anywhere you want on your machine.
 
+Open Sync.bat with a text editor and change the backup folder path.
+
+![image](https://github.com/SkalyptoSama/USB-backup/assets/80338702/ff15f4e0-770a-42d1-a01d-bfe226e5530c)
+
+Same with USB-backup.ps1 and change 'Mirror' to your drive name.
+
+![image](https://github.com/SkalyptoSama/USB-backup/assets/80338702/2da80e90-877d-4db8-b2fa-2875dd22b6d9)
+
 Then in Windows Task Scheduler, select import task and open USB-backup.xml
 
 Go to 'Actions' and 'Modify' and in the 'Arguments' delete whats after -File and enter the full path to USB-backup.ps1 
