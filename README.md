@@ -1,17 +1,22 @@
 # USB-backup
 Windows PS Script and .bat to automatically backup a usb drive to a machine when it is inserted (based on monotone's script). Sources below.
 
+
+
 # Set up
-To set up the automatic backup download both Sync.bat and USB-backup.ps1
+To set up the automatic backup download Sync.bat, USB-backup.ps1 and USB-backup.xml
 
-The batch file yould go in your usb drive and the PS script can go anywhere you want on your machine.
+The batch file should go at the root your usb drive and the PS script can go anywhere you want on your machine.
 
-Then in Windows Task Scheduler, create a new task with whatever trigger you need (I use at logon).
+Then in Windows Task Scheduler, select import task and open USB-backup.xml
 
-In Actions choose "Start a program".
+Go to 'Actions' and 'Modify' and in the 'Arguments' delete whats after -File and enter the full path to USB-backup.ps1 
 
-![image](https://github.com/SkalyptoSama/USB-backup/assets/80338702/d3eb4fcb-c074-4560-8827-4e891c85da33)
+![image](https://github.com/SkalyptoSama/USB-backup/assets/80338702/c572b295-88b2-499e-ac4a-830d8c88f1c5)
 
+You can also remove -WindowStyle Hidden if you want to see the powershell window.
+
+![image](https://github.com/SkalyptoSama/USB-backup/assets/80338702/2ec4b43f-8d98-4de9-b6ee-5635ee42c0c6)
 
 
 
