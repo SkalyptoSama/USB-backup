@@ -26,7 +26,7 @@ You can also remove -WindowStyle Hidden if you want to see the powershell window
 
 ![image](https://github.com/SkalyptoSama/USB-backup/assets/80338702/2ec4b43f-8d98-4de9-b6ee-5635ee42c0c6)
 
-The -ExecutionPolicy Bypass argument allows the script to run
+The -ExecutionPolicy Bypass argument allows the script to run.
 
 
 
